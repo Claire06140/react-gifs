@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 
+import SearchBar from './search_bar.jsx';
+
 class App extends Component {
     render() {
     return (
       <div>
         <div className="left-scene">
-          <div className="selected-gif">
-          </div>
+          <SearchBar />
         </div>
         <div className="right-scene">
         </div>
@@ -15,5 +16,6 @@ class App extends Component {
   }
 }
 
+// API_KEY_GIPHY = "wbOwcZHwj7aZMmIPJiEHpO6dAsQUb0WA"
 
 export default App;
